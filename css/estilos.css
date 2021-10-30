@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+#header {
+  margin:auto;
+  width:48%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:#041C42;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  font-size: 20px;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+
+}
+header {
+  background-color:#041C42;
+	  /*rgba(0,0,0,0.9);*/
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+
+.contenido {
+  padding-top: 80px;
+}
+#section2{
+	/*background-color:aqua;*/
+	width: 50%;float:left; height: 500px; position: fixed;
+}
+
+/*#art1{
+	margin: 0.5em 3em; padding: 0.5em 2em; background-color:burlywood; border: 1px double; }
+article p { text-align: justify; }*/
+
+aside{
+	
+	padding-top: 130px;
+	position: absolute;
+	right: 15px;
+}
+.fb-page{
+
+	
+	width: 50%;
+
+}
+#TW{
+	position: inherit;
+	margin-right:auto;
+	background-image:url("../img/Unadf.JPG");
+	padding-top: 10px;
+
+}
+
+
+#anuncio1 {}
+/*#anuncio1 { border: 2px solid blue; background-color:white;float:right; width: 44%;}*/
+
+#AutorUNAD{
+	
+	margin-top: 35px;
+		
+}
+
+ #footer {
+      background-color: #041C42;
+      position: relative;
+      display: inline-block;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      color: white;
+    }
